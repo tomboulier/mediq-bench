@@ -1,0 +1,37 @@
+[
+	{
+		"id": "exemple-q-001",
+		"titre": "PTH standard",
+		"type": "ouverte",
+		"question": "Quelle est l'antibioprophylaxie recommandée pour une prothèse totale de hanche ?",
+		"reponse": "Céfazoline",
+		"auteur": "Exemple (à remplacer)",
+		"creeLe": "2026-08-09T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR Antibioprophylaxie",
+				"url": "https://sfar.org/antibioprophylaxie"
+			}
+		],
+		"tags": ["orthopédie"]
+	},
+	{
+		"id": "exemple-q-002",
+		"titre": "Allergie aux bêta-lactamines",
+		"type": "qcm",
+		"question": "Quelle molécule privilégier pour une PTH chez un patient allergique aux bêta-lactamines ?",
+		"choix": ["Céfazoline", "Vancomycine", "Amoxicilline-acide clavulanique"],
+		"reponse": "B",
+		"auteur": "Exemple (à remplacer)",
+		"creeLe": "2026-08-09T00:00:00.000Z",
+		"statut": "draft",
+		"references": [
+			{
+				"titre": "RFE SFAR Antibioprophylaxie",
+				"url": "https://sfar.org/antibioprophylaxie"
+			}
+		],
+		"tags": ["orthopédie", "allergie"]
+	}
+]

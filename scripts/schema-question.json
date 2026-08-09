@@ -1,0 +1,64 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"title": "Question MediQ-Bench",
+	"type": "object",
+	"required": [
+		"id",
+		"titre",
+		"type",
+		"question",
+		"reponse",
+		"auteur",
+		"creeLe",
+		"statut",
+		"references",
+		"tags"
+	],
+	"properties": {
+		"id": { "type": "string", "minLength": 1 },
+		"titre": { "type": "string", "minLength": 1 },
+		"type": { "enum": ["ouverte", "qcm"] },
+		"question": { "type": "string", "minLength": 1 },
+		"auteur": { "type": "string", "minLength": 1 },
+		"creeLe": { "type": "string", "format": "date-time" },
+		"statut": { "enum": ["draft", "pending_review", "approved", "deprecated"] },
+		"references": {
+			"type": "array",
+			"minItems": 1,
+			"items": { "$ref": "#/$defs/reference" }
+		},
+		"tags": { "type": "array", "items": { "type": "string" } }
+	},
+	"allOf": [
+		{
+			"if": { "properties": { "type": { "const": "ouverte" } } },
+			"then": {
+				"properties": { "reponse": { "type": "string", "minLength": 1 } }
+			}
+		},
+		{
+			"if": { "properties": { "type": { "const": "qcm" } } },
+			"then": {
+				"required": ["choix"],
+				"properties": {
+					"choix": {
+						"type": "array",
+						"minItems": 2,
+						"items": { "type": "string", "minLength": 1 }
+					},
+					"reponse": { "type": "string", "pattern": "^[A-Z]$" }
+				}
+			}
+		}
+	],
+	"$defs": {
+		"reference": {
+			"type": "object",
+			"required": ["titre", "url"],
+			"properties": {
+				"titre": { "type": "string", "minLength": 1 },
+				"url": { "type": "string", "format": "uri", "pattern": "^https?://" }
+			}
+		}
+	}
+}
