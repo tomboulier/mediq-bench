@@ -11,6 +11,9 @@ export default defineConfig({
 					filename.split(/[/\\]/).includes('node_modules') ? undefined : true
 			},
 
+			// Déployé sur GitHub Pages sous /<repo>/ : préfixe des assets et liens
+			paths: { base: '/mediq-bench' },
+
 			// SPA statique : fallback 404.html pour le routing côté client sur GitHub Pages
 			adapter: adapter({
 				fallback: '404.html'

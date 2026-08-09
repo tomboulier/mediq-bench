@@ -25,7 +25,7 @@ RACINE = Path(__file__).resolve().parent.parent
 REGEX_SEMVER = __import__("re").compile(r"^(\d+)\.(\d+)\.(\d+)$")
 
 
-def pr_mergee() -> dict:
+def pr_mergee() -> dict | None:
     """Retourne la PR associée au commit de merge courant."""
     repo = os.environ["GITHUB_REPOSITORY"]
     sha = os.environ["GITHUB_SHA"]
@@ -39,7 +39,8 @@ def pr_mergee() -> dict:
     with urllib.request.urlopen(requete) as reponse:
         prs = json.load(reponse)
     if not prs:
-        sys.exit(f"Aucune PR associée au commit {sha} : release annulée")
+        # Push direct sans PR (ex: initialisation du repo) : pas de bump
+        return None
     return prs[0]
 
 
@@ -66,21 +67,23 @@ def bumper(version: str, type_: str) -> str:
 
 def main() -> int:
     pr = pr_mergee()
-    type_ = type_bump(pr)
-
     fichier_version = RACINE / "version.json"
     version_actuelle = json.loads(fichier_version.read_text(encoding="utf-8"))["version"]
-    nouvelle = bumper(version_actuelle, type_)
-    fichier_version.write_text(
-        json.dumps({"version": nouvelle}, indent="\t") + "\n", encoding="utf-8"
-    )
 
-    changelog = RACINE / "CHANGELOG.md"
-    contenu = changelog.read_text(encoding="utf-8") if changelog.exists() else "# Changelog\n"
-    entree = f"\n## v{nouvelle} ({date.today().isoformat()})\n\n- {pr['title']} (#{pr['number']})\n"
-    changelog.write_text(contenu.rstrip() + "\n" + entree, encoding="utf-8")
+    if pr is None:
+        print(f"Aucune PR associée : publication de v{version_actuelle} sans bump")
+        nouvelle = version_actuelle
+    else:
+        nouvelle = bumper(version_actuelle, type_bump(pr))
+        fichier_version.write_text(
+            json.dumps({"version": nouvelle}, indent="\t") + "\n", encoding="utf-8"
+        )
+        changelog = RACINE / "CHANGELOG.md"
+        contenu = changelog.read_text(encoding="utf-8") if changelog.exists() else "# Changelog\n"
+        entree = f"\n## v{nouvelle} ({date.today().isoformat()})\n\n- {pr['title']} (#{pr['number']})\n"
+        changelog.write_text(contenu.rstrip() + "\n" + entree, encoding="utf-8")
+        print(f"v{version_actuelle} -> v{nouvelle} : {pr['title']}")
 
-    print(f"v{version_actuelle} -> v{nouvelle} ({type_}) : {pr['title']}")
     with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as sortie:
         sortie.write(f"new_version={nouvelle}\n")
     return 0
