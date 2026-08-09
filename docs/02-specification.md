@@ -1,4 +1,4 @@
-# Phase 2 — Specification (BMAD Planning)
+# Phase 2 : Specification (BMAD Planning)
 
 > Spécifications fonctionnelles et techniques de MediQ-Bench.
 > Document évolutif, rempli au fil des interviews BMAD.
@@ -8,19 +8,19 @@
 
 ### Métadonnées auteurs
 
-**Décision :** Simple pour le MVP — un nom/prénom. Pas d'ORCID, affiliation ou email pour l'instant.
+**Décision :** Simple pour le MVP : un nom/prénom. Pas d'ORCID, affiliation ou email pour l'instant.
 
-- [ ] Backlog : étoffer les métadonnées auteurs (ORCID, affiliation, email) — nécessaire pour l'attribution CC-BY détaillée
+- [ ] Backlog : étoffer les métadonnées auteurs (ORCID, affiliation, email) : nécessaire pour l'attribution CC-BY détaillée
 
 ### Références aux guidelines
 
-**Décision :** Simple pour le MVP — titre de la recommandation + URL. Pas de section, page ou extrait pour l'instant.
+**Décision :** Simple pour le MVP : titre de la recommandation + URL. Pas de section, page ou extrait pour l'instant.
 
 - [ ] Backlog : préciser le système de citation (section, page, extrait) si le besoin se fait sentir
 
 ### Tags / catégories
 
-**Décision :** Tags contrôlés — liste pré-définie, gérée par les mainteneurs du projet (Thomas et le comité). Pas de tags libres saisis par l'auteur pour le MVP.
+**Décision :** Tags contrôlés : liste pré-définie, gérée par les mainteneurs du projet (Thomas et le comité). Pas de tags libres saisis par l'auteur pour le MVP.
 
 ### Organisation des fichiers
 
@@ -28,7 +28,7 @@
 
 ### Statuts de relecture (reviewStatus)
 
-**Décision :** Workflow complet — `draft` → `pending_review` → `approved` → `deprecated`. Chaque question passe par ces états au cours de son cycle de vie.
+**Décision :** Workflow complet : `draft` → `pending_review` → `approved` → `deprecated`. Chaque question passe par ces états au cours de son cycle de vie.
 
 ## 2. Workflow utilisateur
 
@@ -46,9 +46,9 @@
 
 ### Git workflow
 
-**Décision :** Branches (agnostique — GitHub et GitLab) :
-- `main` — releases officielles, version SemVer publiée
-- `dev` — branche d'intégration, les PR des contributeurs arrivent ici
+**Décision :** Branches (agnostique : GitHub et GitLab) :
+- `main` : releases officielles, version SemVer publiée
+- `dev` : branche d'intégration, les PR des contributeurs arrivent ici
 - Les contributeurs travaillent sur des branches dédiées (ex: `feat/antibioprophylaxie-q15`)
 
 **Décision :** Le merge de `dev` vers `main` déclenche via CI/CD :
@@ -64,7 +64,7 @@
 
 ## 4. Scope MVP (congrès SFAR)
 
-**Objectif :** Partager l'URL de l'outil lors de la présentation du benchmark LLM sur les RFE d'antibioprophylaxie, et permettre aux participants de contribuer.
+**Objectif :** Partager l'URL de l'outil lors de la présentation du banc d'essai LLM sur les RFE d'antibioprophylaxie, et permettre aux participants de contribuer.
 
 | Fonctionnalité | MVP | Note |
 |---|---|---|
@@ -76,10 +76,10 @@
 
 ## 5. Review process
 
-**Décision :** Pour le MVP, il n'y a pas de système de review custom — on utilise les fonctionnalités natives de la plateforme (GitHub pour le MVP, GitLab SFAR après migration) :
+**Décision :** Pour le MVP, il n'y a pas de système de review custom : on utilise les fonctionnalités natives de la plateforme (GitHub pour le MVP, GitLab SFAR après migration) :
 
 - **Reviewer unique :** Thomas pour le MVP
-- **Gestion des droits :** via les rôles GitHub/GitLab (Maintainer, Contributor…) — pas de système custom
+- **Gestion des droits :** via les rôles GitHub/GitLab (Maintainer, Contributor…) : pas de système custom
 - **Montée en puissance :**
   1. Membre du **groupe numérique SFAR** (co-auteurs de l'abstract, organisateurs du Datathon)
   2. À terme : **Comité des Référentiels Cliniques (CRC)** et experts désignés par RFE
@@ -90,7 +90,7 @@
 
 ### Langue
 
-**Décision :** Tout en français pour le MVP — interface, données, clés JSON. Le public cible est la SFAR (Société Française d'Anesthésie et de Réanimation), les questions sont en français pour des francophones. L'anglais (bilingue EN/FR) sera envisagé dans un second temps, pour passer à l'échelle européenne.
+**Décision :** Tout en français pour le MVP : interface, données, clés JSON. Le public cible est la SFAR (Société Française d'Anesthésie et de Réanimation), les questions sont en français pour des francophones. L'anglais (bilingue EN/FR) sera envisagé dans un second temps, pour passer à l'échelle européenne.
 
 ### Mobile
 

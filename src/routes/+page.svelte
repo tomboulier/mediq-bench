@@ -12,7 +12,7 @@
 <h1>MediQ-Bench</h1>
 <p>
 	Banque collaborative de questions-réponses cliniques, versionnée et relue par un comité
-	d'experts. Les questions alimentent des benchmarks d'évaluation de modèles de langage en
+	d'experts. Les questions alimentent des bancs d'essai pour l'évaluation de modèles de langage en
 	médecine.
 </p>
 

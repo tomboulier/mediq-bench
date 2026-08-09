@@ -1,37 +1,3105 @@
 [
 	{
-		"id": "exemple-q-001",
+		"id": "Q01",
 		"titre": "PTH standard",
-		"type": "ouverte",
-		"question": "Quelle est l'antibioprophylaxie recommandée pour une prothèse totale de hanche ?",
-		"reponse": "Céfazoline",
-		"auteur": "Exemple (à remplacer)",
-		"creeLe": "2026-08-09T00:00:00.000Z",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une prothèse totale de hanche ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
 		"statut": "approved",
 		"references": [
 			{
-				"titre": "RFE SFAR Antibioprophylaxie",
-				"url": "https://sfar.org/antibioprophylaxie"
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
 			}
 		],
-		"tags": ["orthopédie"]
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
 	},
 	{
-		"id": "exemple-q-002",
-		"titre": "Allergie aux bêta-lactamines",
-		"type": "qcm",
-		"question": "Quelle molécule privilégier pour une PTH chez un patient allergique aux bêta-lactamines ?",
-		"choix": ["Céfazoline", "Vancomycine", "Amoxicilline-acide clavulanique"],
-		"reponse": "B",
-		"auteur": "Exemple (à remplacer)",
-		"creeLe": "2026-08-09T00:00:00.000Z",
-		"statut": "draft",
+		"id": "Q02",
+		"titre": "Arthroscopie genou diagnostique",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une arthroscopie diagnostique du genou sans mise en place de matériel ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
 		"references": [
 			{
-				"titre": "RFE SFAR Antibioprophylaxie",
-				"url": "https://sfar.org/antibioprophylaxie"
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
 			}
 		],
-		"tags": ["orthopédie", "allergie"]
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q03",
+		"titre": "PTG allergie bêtalactamines",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une prothèse totale de genou chez un patient allergique aux bêtalactamines ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Clindamycine"
+	},
+	{
+		"id": "Q04",
+		"titre": "PTH voie antérieure allergie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une prothèse de hanche par voie antérieure chez un patient allergique aux bêtalactamines ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Vancomycine"
+	},
+	{
+		"id": "Q05",
+		"titre": "Fracture ouverte Gustilo 2",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une fracture ouverte de jambe Gustilo 2 ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q06",
+		"titre": "Fixateur externe fracture fermée",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la pose d'un fixateur externe sur une fracture fermée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q07",
+		"titre": "Arthrodèse lombaire instrumentée",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une arthrodèse lombaire instrumentée en un temps ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q08",
+		"titre": "Parage morsure",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour le parage chirurgical d'une morsure ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q09",
+		"titre": "Écrasement main > 2h",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour un écrasement complexe de la main nécessitant une chirurgie de plus de 2 heures ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q10",
+		"titre": "Plaie agricole cuisse",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une plaie de cuisse par accident agricole, susceptible d'être contaminée par des germes telluriques ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q11",
+		"titre": "Plaie simple mollet",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour le parage d'une plaie simple du mollet ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q12",
+		"titre": "Fracture ouverte Gustilo 3 allergie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une fracture ouverte Gustilo 3 chez un patient allergique aux pénicillines ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Clindamycine + Gentamicine"
+	},
+	{
+		"id": "Q13",
+		"titre": "Ablation matériel ostéosynthèse MI",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour l'ablation de matériel d'ostéosynthèse au membre inférieur ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q14",
+		"titre": "Morsure chien visage parage bloc",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour le parage au bloc opératoire d'une morsure de chien au visage ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q15",
+		"titre": "Polytrauma fémur radius plaie main",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la prise en charge chirurgicale combinée de fractures fermées (fémur, radius) et d'une exploration de plaie de la main chez un accidenté de la route ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q16",
+		"titre": "Splénectomie hémostase fixateur externe fémur",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une splénectomie d'hémostase associée à la pose d'un fixateur externe sur fracture fermée du fémur chez un polytraumatisé ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q17",
+		"titre": "Dégantage bras augmentin préhospitalier",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la prise en charge chirurgicale d'un dégantage du bras par machine agricole chez un patient ayant déjà reçu de l'amoxicilline/clavulanate en pré-hospitalier ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q18",
+		"titre": "Craniotomie standard",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une craniotomie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q19",
+		"titre": "Biopsie cérébrale",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une biopsie cérébrale ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q20",
+		"titre": "DVE",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la pose d'une dérivation ventriculaire externe (DVE) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q21",
+		"titre": "DVP",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la pose d'une dérivation ventriculo-péritonéale (DVP) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q22",
+		"titre": "Plaie cranio-cérébrale",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une plaie cranio-cérébrale pénétrante ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q23",
+		"titre": "Fracture base du crâne sans otorrhée",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une fracture de la base du crâne sans otorrhée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q24",
+		"titre": "Fracture base du crâne avec otorrhée",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une fracture de la base du crâne avec otorrhée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q25",
+		"titre": "Pose stimulateur cérébral",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la pose d'une électrode de stimulation cérébrale profonde ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q26",
+		"titre": "Embolisation anévrysme cérébral",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour l'embolisation d'un anévrysme cérébral ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q27",
+		"titre": "Craniotomie allergie bêtalactamines",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une craniotomie chez un patient allergique aux bêtalactamines ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Clindamycine"
+	},
+	{
+		"id": "Q28",
+		"titre": "Plaie cranio-cérébrale allergie pénicillines",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une plaie cranio-cérébrale chez un patient allergique aux pénicillines ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Triméthoprime/Sulfaméthoxazole"
+	},
+	{
+		"id": "Q29",
+		"titre": "Amygdalectomie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une amygdalectomie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q30",
+		"titre": "Thyroïdectomie totale",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une thyroïdectomie totale ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q31",
+		"titre": "Chirurgie sinusienne polypose",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chirurgie sinusienne de polypose nasale ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q32",
+		"titre": "Laryngectomie totale",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une laryngectomie totale (chirurgie carcinologique ORL sans reconstruction) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q33",
+		"titre": "Implant cochléaire",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la pose d'un implant cochléaire ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q34",
+		"titre": "Trachéotomie chirurgicale",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une trachéotomie chirurgicale ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q35",
+		"titre": "Trachéotomie percutanée",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une trachéotomie percutanée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q36",
+		"titre": "Chirurgie cataracte",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chirurgie de la cataracte ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfuroxime"
+	},
+	{
+		"id": "Q37",
+		"titre": "Chirurgie glaucome",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chirurgie du glaucome ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q38",
+		"titre": "Traumatisme globe ouvert",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour un traumatisme à globe ouvert ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Vancomycine + Ceftazidime"
+	},
+	{
+		"id": "Q39",
+		"titre": "Chirurgie strabisme",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chirurgie du strabisme ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q40",
+		"titre": "Extraction dent incluse",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour l'extraction d'une dent incluse ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline"
+	},
+	{
+		"id": "Q41",
+		"titre": "Fracture mandibule",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une fracture ouverte de mandibule ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q42",
+		"titre": "Chirurgie orthognatique",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chirurgie orthognatique ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q43",
+		"titre": "Carcinologique cervico-faciale allergie bêtalactamines",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chirurgie carcinologique cervico-faciale avec lambeau chez un patient allergique aux bêtalactamines ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Clindamycine + Gentamicine"
+	},
+	{
+		"id": "Q44",
+		"titre": "Remplacement valvulaire sous CEC",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour un remplacement valvulaire aortique sous circulation extracorporelle (CEC) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q45",
+		"titre": "TAVI",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la pose d'une bioprothèse de valve aortique par voie transcutanée (TAVI) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q46",
+		"titre": "Pose pacemaker",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour l'implantation d'un stimulateur cardiaque (pacemaker) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q47",
+		"titre": "Ablation FA par cathéter",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une ablation de fibrillation atriale par cathéter (radiofréquence), chez un patient n'ayant pas de prothèse intracardiaque déjà implantée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q48",
+		"titre": "ECMO percutanée",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la mise en place d'une ECMO percutanée (sans abord chirurgical) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q49",
+		"titre": "Endartériectomie carotidienne sans matériel",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une endartériectomie carotidienne sans mise en place de matériel ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q50",
+		"titre": "Amputation de membre",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une amputation de membre (hors contexte septique) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q51",
+		"titre": "Chirurgie varices sans scarpa",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chirurgie des varices sans abord chirurgical du scarpa ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q52",
+		"titre": "Drainage thoracique",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la pose d'un drain thoracique ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q53",
+		"titre": "Médiastinoscopie avec biopsies",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une médiastinoscopie avec biopsies ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q54",
+		"titre": "Fibroscopie bronchique",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une fibroscopie bronchique avec lavage broncho-alvéolaire ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q55",
+		"titre": "Pose prothèse mammaire",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une augmentation mammaire avec pose d'implants siliconés ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q56",
+		"titre": "Tumorectomie mammaire sans curage",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une tumorectomie mammaire sans curage ganglionnaire ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q57",
+		"titre": "Mastectomie sans reconstruction",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une mastectomie sans reconstruction mammaire ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q58",
+		"titre": "Rhinoplastie sans greffe cartilage",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une septo-rhinoplastie sans greffe de cartilage ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q59",
+		"titre": "Lipoaspiration",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une lipoaspiration sous anesthésie générale ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q60",
+		"titre": "Blépharoplastie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une blépharoplastie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q61",
+		"titre": "Lambeau libre microchirurgical",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une reconstruction par lambeau libre microchirurgical ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q62",
+		"titre": "Greffe cutanée hors brûlure",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une greffe cutanée (hors patient brûlé) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q63",
+		"titre": "Vaginoplastie affirmation de genre",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une vaginoplastie dans le cadre d'une chirurgie d'affirmation de genre ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q64",
+		"titre": "Chondro-laryngoplastie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chondro-laryngoplastie par cervicotomie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q65",
+		"titre": "Tumorectomie mammaire avec curage axillaire",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une tumorectomie mammaire avec curage axillaire ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q66",
+		"titre": "Mastoplastie de réduction",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une mastoplastie bilatérale de réduction ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q67",
+		"titre": "Chirurgie du mamelon",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chirurgie du mamelon ou de la plaque aréolo-mamelonnaire ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q68",
+		"titre": "Coelioscopie diagnostique gynécologique",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une coelioscopie diagnostique en gynécologie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q69",
+		"titre": "Annexectomie par coelioscopie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une annexectomie par voie coelioscopique ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q70",
+		"titre": "Résection endométriose avec atteinte rectale",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une résection de lésions endométriosiques avec atteinte rectale par coelioscopie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline + Métronidazole"
+	},
+	{
+		"id": "Q71",
+		"titre": "Hystérectomie totale par laparotomie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une hystérectomie totale sans annexectomie par laparotomie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfoxitine"
+	},
+	{
+		"id": "Q72",
+		"titre": "Hystérectomie subtotale avec annexectomie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une hystérectomie subtotale avec annexectomie (sans temps vaginal) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q73",
+		"titre": "Conisation col utérin",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une conisation du col utérin ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q74",
+		"titre": "Hystéroscopie diagnostique",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une hystéroscopie diagnostique ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q75",
+		"titre": "Biopsie de l'endomètre",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une biopsie de l'endomètre par hystéroscopie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q76",
+		"titre": "Chirurgie du prolapsus",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une hystéropexie (chirurgie du prolapsus) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q77",
+		"titre": "Vulvectomie avec curage inguinal",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une vulvectomie partielle avec curage lymphonodal inguinal unilatéral ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q78",
+		"titre": "Nymphoplastie de réduction",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une nymphoplastie de réduction ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q79",
+		"titre": "Césarienne",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une césarienne programmée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q80",
+		"titre": "Cerclage col utérin grossesse",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour un cerclage du col de l'utérus au cours de la grossesse par voie transvaginale ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q81",
+		"titre": "Révision utérine",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une révision de la cavité utérine après l'accouchement ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q82",
+		"titre": "Tamponnement utérin hémorragie obstétricale",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la pose d'un tamponnement intra-utérin pour hémorragie obstétricale ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q83",
+		"titre": "IVG premier trimestre",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une interruption volontaire de grossesse par aspiration au premier trimestre ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q84",
+		"titre": "Ponction ovocytes PMA",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour un prélèvement d'ovocytes par voie transvaginale avec échoguidage (PMA) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q85",
+		"titre": "Oesophagectomie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une oesophagectomie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q86",
+		"titre": "Sleeve gastrectomie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une sleeve gastrectomie (chirurgie bariatrique) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfoxitine"
+	},
+	{
+		"id": "Q87",
+		"titre": "Anneau gastrique",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la mise en place d'un anneau gastrique (chirurgie bariatrique) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q88",
+		"titre": "Résection intestin grêle",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une résection de l'intestin grêle par laparotomie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfoxitine"
+	},
+	{
+		"id": "Q89",
+		"titre": "Appendicectomie programmée",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une appendicectomie programmée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfoxitine"
+	},
+	{
+		"id": "Q90",
+		"titre": "Colectomie droite porteur BLSE",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une colectomie droite programmée chez un patient porteur d'une entérobactérie productrice de bêtalactamase à spectre étendu (BLSE) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Ertapénème"
+	},
+	{
+		"id": "Q91",
+		"titre": "Hémorroïdes",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chirurgie des hémorroïdes ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Métronidazole"
+	},
+	{
+		"id": "Q92",
+		"titre": "Cholécystectomie coelioscopique haut risque",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une cholécystectomie élective par coelioscopie chez un patient de 82 ans ictérique, présentant un calcul dans la voie biliaire principale ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q93",
+		"titre": "Cholécystectomie par laparotomie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une cholécystectomie par laparotomie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q94",
+		"titre": "Kyste hydatique du foie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chirurgie d'un kyste hydatique du foie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q95",
+		"titre": "Splénectomie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une splénectomie programmée par laparotomie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q96",
+		"titre": "Pancréatectomie gauche",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une pancréatectomie gauche avec conservation de la rate ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q97",
+		"titre": "DPC sans drainage biliaire préopératoire",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une duodéno-pancréatectomie céphalique (DPC) sans geste de drainage biliaire préopératoire ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfoxitine"
+	},
+	{
+		"id": "Q98",
+		"titre": "DPT avec drainage biliaire préopératoire",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une duodéno-pancréatectomie totale (DPT) pour ampullome avec antécédent de drainage biliaire ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pipéracilline/Tazobactam"
+	},
+	{
+		"id": "Q99",
+		"titre": "Transplantation hépatique",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une transplantation hépatique ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfoxitine"
+	},
+	{
+		"id": "Q100",
+		"titre": "Hernie inguinale avec prothèse",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une cure de hernie inguinale avec pose de prothèse par coelioscopie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q101",
+		"titre": "Hernie aine sans prothèse",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une cure de hernie de l'aine sans prothèse ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q102",
+		"titre": "Gastrostomie percutanée",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la pose d'une gastrostomie par voie transcutanée avec guidage endoscopique ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q103",
+		"titre": "Coloscopie avec biopsie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une coloscopie diagnostique avec biopsie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q104",
+		"titre": "CPRE avec drainage complet",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une CPRE avec extraction de calculs biliaires et drainage biliaire complet satisfaisant ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q105",
+		"titre": "Embolisation hépatique",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chimio-embolisation hépatique ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q106",
+		"titre": "RTUP",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une résection trans-urétrale de prostate (RTUP) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q107",
+		"titre": "Prostatectomie totale",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une prostatectomie totale ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q108",
+		"titre": "Biopsie prostate transrectale",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour des biopsies de prostate par voie transrectale ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Fosfomycine-trométamol"
+	},
+	{
+		"id": "Q109",
+		"titre": "Biopsie prostate transpérinéale",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour des biopsies de prostate par voie transpérinéale ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q110",
+		"titre": "Cystoscopie diagnostique",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une cystoscopie diagnostique ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q111",
+		"titre": "Cystectomie sustrigonale",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une cystectomie sustrigonale totale ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfoxitine"
+	},
+	{
+		"id": "Q112",
+		"titre": "Prothèse pénienne",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la pose d'une prothèse pénienne ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q113",
+		"titre": "Chirurgie scrotale sans prothèse",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chirurgie scrotale sans prothèse ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q114",
+		"titre": "Urétéroscopie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une urétéroscopie diagnostique ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q115",
+		"titre": "Lithotritie extra-corporelle",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une lithotritie extra-corporelle ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q116",
+		"titre": "Néphrolithotomie percutanée",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une néphrolithotomie percutanée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q117",
+		"titre": "Tympanoplastie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une tympanoplastie (myringoplastie) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q118",
+		"titre": "Stapédectomie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une stapédectomie pour otospongiose ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q119",
+		"titre": "Cholestéatome non infecté",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chirurgie de cholestéatome non infecté (tympanotomie d'oreille moyenne) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q120",
+		"titre": "Adénoïdectomie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une adénoïdectomie isolée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q121",
+		"titre": "Laryngoscopie avec cordectomie laser",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une laryngoscopie en suspension avec geste thérapeutique par laser (cordectomie) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q122",
+		"titre": "Parathyroïdectomie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une parathyroïdectomie pour hyperparathyroïdie primaire ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q123",
+		"titre": "Parotidectomie sans accès buccal",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une parotidectomie partielle superficielle sans accès par la cavité bucco-pharyngée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q124",
+		"titre": "Chirurgie glandes salivaires avec accès buccal",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chirurgie des glandes salivaires avec accès par la cavité bucco-pharyngée (ex : ablation d'un calcul sous-mandibulaire par voie endobuccale) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q125",
+		"titre": "Rhinoplastie avec greffe de cartilage",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une septo-rhinoplastie avec greffe de cartilage ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q126",
+		"titre": "Endartériectomie carotidienne avec matériel",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une endartériectomie carotidienne avec mise en place de matériel (patch) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q127",
+		"titre": "Fistule artério-veineuse sans matériel",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la création d'une fistule artério-veineuse native sans mise en place de matériel prothétique ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q128",
+		"titre": "Fistule artério-veineuse avec matériel",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la création d'une fistule artério-veineuse prothétique avec mise en place d'un greffon synthétique ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q129",
+		"titre": "Varices avec abord chirurgical du Scarpa",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une chirurgie des varices avec abord chirurgical du triangle de Scarpa ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q130",
+		"titre": "Transplantation cardiaque standard",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une transplantation cardiaque chez un patient arrivant de son domicile, sans assistance mécanique circulatoire de longue durée préalable ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q131",
+		"titre": "Fermeture de foramen ovale perméable",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la fermeture d'un foramen ovale perméable par voie percutanée avec implantation de matériel ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q132",
+		"titre": "Chirurgie du pneumothorax par thoracoscopie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une bullectomie avec pleurectomie apicale par vidéothoracoscopie pour pneumothorax spontané récidivant ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q133",
+		"titre": "Body-lift",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour un body-lift (lifting corporel circulaire post-perte de poids massive) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q134",
+		"titre": "Abdominoplastie courte durée",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une abdominoplastie de durée inférieure ou égale à 2 heures ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q135",
+		"titre": "Brachioplastie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une brachioplastie (lifting des bras) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q136",
+		"titre": "Curage ganglionnaire axillaire seul",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour un curage ganglionnaire axillaire seul (sans geste mammaire associé) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Pas d'antibioprophylaxie"
+	},
+	{
+		"id": "Q137",
+		"titre": "Génioplastie",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une génioplastie (avec ou sans implant) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Amoxicilline/Clavulanate"
+	},
+	{
+		"id": "Q138",
+		"titre": "Pose de substitut dermique",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la pose d'un substitut dermique (matrice dermique acellulaire) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "ouverte",
+		"reponse": "Céfazoline"
+	},
+	{
+		"id": "Q139",
+		"titre": "PTG première intention",
+		"question": "Quelle molécule est recommandée en première intention pour l'antibioprophylaxie d'une prothèse totale de genou ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Amoxicilline/Clavulanate",
+			"Céfazoline",
+			"Clindamycine",
+			"Vancomycine"
+		],
+		"reponse": "B"
+	},
+	{
+		"id": "Q140",
+		"titre": "Intervention sans ABP",
+		"question": "Parmi ces interventions, laquelle ne nécessite PAS d'antibioprophylaxie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Prothèse d'épaule",
+			"Cimentoplastie vertébrale",
+			"Ablation de matériel d'ostéosynthèse du fémur",
+			"Arthroscopie du genou avec mise en place de matériel"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q141",
+		"titre": "PTG allergie alternative",
+		"question": "En cas d'allergie aux bêtalactamines, quelle est l'alternative de première intention pour l'antibioprophylaxie d'une prothèse de genou ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Gentamicine",
+			"Vancomycine",
+			"Clindamycine",
+			"Métronidazole"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q142",
+		"titre": "Seuil Gustilo changement molécule",
+		"question": "À partir de quel stade de Gustilo la molécule d'antibioprophylaxie change-t-elle (passage de la Céfazoline à l'Amoxicilline/Clavulanate) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Gustilo 1",
+			"Gustilo 2",
+			"Gustilo 3",
+			"Pas de changement, c'est toujours la Céfazoline"
+		],
+		"reponse": "B"
+	},
+	{
+		"id": "Q143",
+		"titre": "Plaie jardinage main",
+		"question": "Un patient se présente avec une plaie de la main par accident de jardinage, susceptible de contamination tellurique. Quelle est la recommandation ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Céfazoline 2g IVL",
+			"Amoxicilline/Clavulanate 2g IVL",
+			"Pas d'antibioprophylaxie recommandée",
+			"Clindamycine 900mg IVL"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q144",
+		"titre": "DVE vs DVP",
+		"question": "Parmi ces actes neurochirurgicaux, lequel nécessite une antibioprophylaxie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Dérivation ventriculaire externe (DVE)",
+			"Biopsie cérébrale",
+			"Dérivation ventriculo-péritonéale (DVP)",
+			"Angiographie des artères cérébrales"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q145",
+		"titre": "Rachis avec vs sans matériel",
+		"question": "Pour la chirurgie du rachis, dans quel cas une antibioprophylaxie est-elle recommandée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Laminectomie sans pose de matériel",
+			"Chirurgie du canal lombaire étroit",
+			"Arthrodèse instrumentée en un temps",
+			"Ablation de matériel du rachis"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q146",
+		"titre": "ORL sans ABP",
+		"question": "Parmi ces interventions ORL, laquelle ne nécessite PAS d'antibioprophylaxie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Pose d'implant cochléaire",
+			"Amygdalectomie",
+			"Laryngectomie totale",
+			"Trachéotomie chirurgicale"
+		],
+		"reponse": "B"
+	},
+	{
+		"id": "Q147",
+		"titre": "Cataracte molécule",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour la chirurgie de la cataracte ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Céfazoline IV",
+			"Céfuroxime intracamérulaire",
+			"Vancomycine intravitréenne",
+			"Moxifloxacine en collyre"
+		],
+		"reponse": "B"
+	},
+	{
+		"id": "Q148",
+		"titre": "Trachéotomie chirurgicale vs percutanée",
+		"question": "Concernant l'antibioprophylaxie des trachéotomies, quelle affirmation est correcte ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Une antibioprophylaxie est recommandée pour les deux types de trachéotomie",
+			"Aucune antibioprophylaxie n'est recommandée, quel que soit le type",
+			"Une antibioprophylaxie est recommandée uniquement pour la trachéotomie chirurgicale",
+			"Une antibioprophylaxie est recommandée uniquement pour la trachéotomie percutanée"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q149",
+		"titre": "Lobectomie pulmonaire molécule",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une lobectomie pulmonaire par thoracotomie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Amoxicilline/Clavulanate uniquement",
+			"Céfazoline uniquement",
+			"Céfuroxime uniquement",
+			"Amoxicilline/Clavulanate, Céfazoline ou Céfuroxime (au choix)"
+		],
+		"reponse": "D"
+	},
+	{
+		"id": "Q150",
+		"titre": "Carotide avec vs sans matériel",
+		"question": "Concernant l'antibioprophylaxie de la chirurgie carotidienne, quelle affirmation est correcte ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Une antibioprophylaxie est toujours recommandée",
+			"Une antibioprophylaxie n'est jamais recommandée",
+			"Une antibioprophylaxie est recommandée uniquement en cas de mise en place de matériel",
+			"Une antibioprophylaxie est recommandée uniquement en cas de reprise chirurgicale"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q151",
+		"titre": "Chirurgie mammaire et ABP",
+		"question": "Parmi ces interventions mammaires, laquelle nécessite une antibioprophylaxie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Tumorectomie mammaire sans curage",
+			"Mastopexie pour ptose simple",
+			"Mastectomie sans curage ganglionnaire",
+			"Réduction mammaire"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q152",
+		"titre": "Rhinoplastie avec vs sans greffe",
+		"question": "Concernant l'antibioprophylaxie en septo-rhinoplastie, quelle affirmation est correcte ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Une antibioprophylaxie est toujours recommandée",
+			"Une antibioprophylaxie n'est jamais recommandée",
+			"Une antibioprophylaxie est recommandée uniquement en cas de greffe de cartilage",
+			"Une antibioprophylaxie est recommandée uniquement en cas de reprise chirurgicale"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q153",
+		"titre": "Hystérectomie voie d'abord et molécule",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une hystérectomie totale par voie coelioscopique (avec annexectomie) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Céfazoline",
+			"Céfoxitine",
+			"Amoxicilline/Clavulanate",
+			"Céfuroxime"
+		],
+		"reponse": "B"
+	},
+	{
+		"id": "Q154",
+		"titre": "Coelioscopie gynécologique sans ABP",
+		"question": "Parmi ces interventions gynécologiques par coelioscopie, laquelle ne nécessite PAS d'antibioprophylaxie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Annexectomie",
+			"Curage pelvien",
+			"Kystectomie ovarienne",
+			"Omentectomie"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q155",
+		"titre": "Obstétrique césarienne vs cerclage",
+		"question": "Concernant l'antibioprophylaxie en obstétrique, quelle affirmation est correcte ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Le cerclage du col utérin nécessite une antibioprophylaxie par céfazoline",
+			"La césarienne programmée ne nécessite pas d'antibioprophylaxie",
+			"La délivrance artificielle nécessite une antibioprophylaxie par céfazoline",
+			"Le curetage post-partum nécessite une antibioprophylaxie par céfoxitine"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q156",
+		"titre": "Endométriose rectale molécule",
+		"question": "Quelle est la recommandation d'antibioprophylaxie pour une résection de lésions endométriosiques avec atteinte rectale ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Céfazoline seule",
+			"Céfoxitine seule",
+			"Céfazoline + Métronidazole",
+			"Amoxicilline/Clavulanate"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q157",
+		"titre": "Bariatrique anneau vs sleeve",
+		"question": "Concernant l'antibioprophylaxie en chirurgie bariatrique, quelle affirmation est correcte ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Anneau gastrique et sleeve gastrectomie utilisent la même molécule",
+			"L'anneau gastrique nécessite de la céfazoline, la sleeve gastrectomie de la céfoxitine",
+			"Aucune chirurgie bariatrique ne nécessite d'antibioprophylaxie",
+			"Toute chirurgie bariatrique nécessite de la céfoxitine"
+		],
+		"reponse": "B"
+	},
+	{
+		"id": "Q158",
+		"titre": "Colectomie protocole ABP",
+		"question": "Quel est le protocole d'antibioprophylaxie recommandé pour une colectomie programmée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Céfoxitine IV le jour de la chirurgie uniquement",
+			"Tobramycine + Métronidazole per os la veille, puis Céfoxitine IV le jour de la chirurgie",
+			"Amoxicilline/Clavulanate IV le jour de la chirurgie uniquement",
+			"Céfazoline IV le jour de la chirurgie + Métronidazole per os la veille"
+		],
+		"reponse": "B"
+	},
+	{
+		"id": "Q159",
+		"titre": "Cholécystectomie coelioscopique risque",
+		"question": "Une cholécystectomie élective par coelioscopie est programmée. Dans quel cas une antibioprophylaxie est-elle recommandée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Chez un patient de moins de 60 ans, sans comorbidité, pour vésicule lithiasique symptomatique sans cholécystite",
+			"Chez un patient avec ictère et calcul de la voie biliaire principale",
+			"Une antibioprophylaxie est toujours recommandée quelle que soit la situation",
+			"Une antibioprophylaxie n'est jamais recommandée pour la voie coelioscopique"
+		],
+		"reponse": "B"
+	},
+	{
+		"id": "Q160",
+		"titre": "Biopsie prostate voie d'abord",
+		"question": "Concernant l'antibioprophylaxie des biopsies de prostate, quelle affirmation est correcte ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Les deux voies (transrectale et transpérinéale) nécessitent une antibioprophylaxie",
+			"Aucune des deux voies ne nécessite d'antibioprophylaxie",
+			"Seule la voie transrectale nécessite une antibioprophylaxie (fosfomycine-trométamol)",
+			"Seule la voie transpérinéale nécessite une antibioprophylaxie (céfazoline)"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q161",
+		"titre": "Hernie inguinale avec vs sans prothèse",
+		"question": "Concernant l'antibioprophylaxie de la cure de hernie inguinale, quelle affirmation est correcte ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Une antibioprophylaxie est toujours recommandée, avec ou sans prothèse",
+			"Une antibioprophylaxie n'est jamais recommandée, avec ou sans prothèse",
+			"Une antibioprophylaxie est recommandée uniquement en cas de pose de prothèse",
+			"Une antibioprophylaxie est recommandée uniquement en l'absence de prothèse"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q162",
+		"titre": "Fracture ouverte jambe chirurgie longue protocoles",
+		"question": "Pour une chirurgie de fracture ouverte de jambe Gustilo 3 d'une durée prévisible supérieure à 4 heures, laquelle de ces conduites d'antibioprophylaxie est INCORRECTE ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Amoxicilline/Clavulanate avec réinjection toutes les 2 heures",
+			"Céfazoline + Gentamicine, avec réinjection de la Céfazoline toutes les 4 heures",
+			"Céfazoline en dose unique, sans réinjection"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q163",
+		"titre": "Fracture ouverte radius ceftriaxone pneumopathie",
+		"question": "Un patient traumatisé crânien a reçu de la ceftriaxone en prévention de la pneumopathie d'inhalation. Il doit être opéré d'une fracture ouverte du radius. Laquelle des conduites suivantes est INCORRECTE ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Amoxicilline/Clavulanate en dose unique pré-opératoire",
+			"Céfazoline + Gentamicine en dose unique pré-opératoire",
+			"Aucun ajout, la ceftriaxone couvre déjà l'antibioprophylaxie chirurgicale"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q164",
+		"titre": "Chirurgie otologique : laquelle nécessite une ABP ?",
+		"question": "Parmi ces interventions otologiques, laquelle nécessite une antibioprophylaxie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Tympanoplastie pour perforation tympanique",
+			"Stapédectomie pour otospongiose",
+			"Pose d'implant cochléaire",
+			"Chirurgie de cholestéatome non infecté"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q165",
+		"titre": "Glandes salivaires : condition déclenchant l'ABP",
+		"question": "Concernant l'antibioprophylaxie de la chirurgie des glandes salivaires, quelle affirmation est correcte ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Une antibioprophylaxie est toujours recommandée, quelle que soit la voie d'abord",
+			"Une antibioprophylaxie n'est jamais recommandée pour ce type de chirurgie",
+			"Une antibioprophylaxie est recommandée uniquement en cas d'accès par la cavité bucco-pharyngée",
+			"Une antibioprophylaxie est recommandée uniquement en l'absence d'accès par la cavité bucco-pharyngée"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q166",
+		"titre": "Stent vasculaire : quel cas sans ABP ?",
+		"question": "Parmi ces procédures interventionnelles vasculaires, dans quel cas l'antibioprophylaxie n'est-elle PAS recommandée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Pose d'un stent couvert aortique",
+			"Pose d'une endoprothèse vasculaire",
+			"Pose d'un stent nu chez un patient avec facteurs de risque infectieux",
+			"Pose d'un stent nu chez un patient sans facteur de risque infectieux"
+		],
+		"reponse": "D"
+	},
+	{
+		"id": "Q167",
+		"titre": "Allergie bêtalactamines en chirurgie cardiaque",
+		"question": "En cas d'allergie avérée aux bêtalactamines, quelle est la recommandation d'antibioprophylaxie pour une chirurgie cardiaque sous circulation extracorporelle (remplacement valvulaire, pontage, etc.) ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Clindamycine 900 mg IVL",
+			"Vancomycine 20 mg/kg IVL ou Teicoplanine 12 mg/kg IVL",
+			"Gentamicine 3 mg/kg IVL seule",
+			"Céfuroxime 1,5g IVL"
+		],
+		"reponse": "B"
+	},
+	{
+		"id": "Q168",
+		"titre": "Fistule artério-veineuse : condition déclenchant l'ABP",
+		"question": "Concernant l'antibioprophylaxie de la chirurgie de fistule artério-veineuse pour accès de dialyse, quelle affirmation est correcte ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Une antibioprophylaxie est recommandée dans tous les cas",
+			"Une antibioprophylaxie n'est jamais recommandée",
+			"Une antibioprophylaxie est recommandée uniquement en cas de mise en place de matériel prothétique",
+			"Une antibioprophylaxie est recommandée uniquement en l'absence de matériel prothétique"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q169",
+		"titre": "Transplantation cardiaque : molécule de 1re intention",
+		"question": "Quelle est la recommandation d'antibioprophylaxie en première intention pour une transplantation cardiaque chez un patient arrivant de son domicile, sans antécédent d'assistance mécanique circulatoire de longue durée ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Amoxicilline/Clavulanate 2g IVL",
+			"Céfazoline 2g IVL",
+			"Vancomycine 20 mg/kg IVL",
+			"Céfoxitine 2g IVL"
+		],
+		"reponse": "B"
+	},
+	{
+		"id": "Q170",
+		"titre": "Chirurgie de silhouette : laquelle nécessite une ABP ?",
+		"question": "Parmi ces chirurgies de silhouette, laquelle nécessite une antibioprophylaxie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Brachioplastie (lifting des bras)",
+			"Lipoaspiration sous anesthésie générale",
+			"Body-lift (lifting corporel circulaire)",
+			"Abdominoplastie de durée inférieure ou égale à 2 heures"
+		],
+		"reponse": "C"
+	},
+	{
+		"id": "Q171",
+		"titre": "ORL : laquelle ne nécessite PAS d'ABP ?",
+		"question": "Parmi ces interventions ORL ou cervico-faciales, laquelle ne nécessite PAS d'antibioprophylaxie ?",
+		"auteur": "Thomas Boulier",
+		"creeLe": "2026-03-18T00:00:00.000Z",
+		"statut": "approved",
+		"references": [
+			{
+				"titre": "RFE SFAR-SPILF : Antibioprophylaxie en chirurgie et médecine interventionnelle (V2.0 du 22/05/2024)",
+				"url": "https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle"
+			}
+		],
+		"tags": [],
+		"type": "qcm",
+		"choix": [
+			"Septo-rhinoplastie avec greffe de cartilage",
+			"Chirurgie des glandes salivaires avec accès par la cavité bucco-pharyngée",
+			"Parathyroïdectomie",
+			"Pose d'implant cochléaire"
+		],
+		"reponse": "C"
 	}
 ]

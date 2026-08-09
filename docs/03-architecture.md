@@ -1,4 +1,4 @@
-# Phase 3 — Architecture (BMAD Architecture)
+# Phase 3 : Architecture (BMAD Architecture)
 
 > Architecture technique de MediQ-Bench.
 > Document évolutif, rempli au fil des interviews BMAD.
@@ -12,7 +12,7 @@
 | Build statique | `@sveltejs/adapter-static` | SPA 100% statique, déployable sur GitHub Pages |
 | Routing | Côté client, `404.html` généré au build | GitHub Pages ne gère pas le routing SPA nativement |
 | Tests unitaires | Vitest | Standard de l'écosystème Vite / SvelteKit |
-| Scripts CI / outils données | Python | Cohérent avec l'écosystème du benchmark existant (validation de schéma, export, calcul SemVer) |
+| Scripts CI / outils données | Python | Cohérent avec l'écosystème du banc d'essai existant (validation de schéma, export, calcul SemVer) |
 
 ## 2. Pas de backend serveur
 
@@ -24,7 +24,7 @@ Python n'est pas exclu du projet : il intervient là où il est le plus pertinen
 - consolidation et export du dataset (vers le format `benchmark.json` du benchmark existant, post-MVP)
 - calcul du bump SemVer lors des releases
 
-## 3. Structure du code — screaming architecture
+## 3. Structure du code : screaming architecture
 
 Le domaine est organisé **par capacités métier**, pas par taxonomie technique : pas de `entities/` ni de `value-objects/`. L'arborescence doit crier de quoi parle le projet (Robert Martin, *Clean Architecture*). Le nommage du domaine est en français, cohérent avec la décision "tout en français" (ubiquitous language).
 
@@ -90,13 +90,13 @@ L'alternative (fetch runtime depuis `raw.githubusercontent.com`) a été écart�
 
 ## 6. CI/CD (GitHub Actions)
 
-### `validate-pr.yml` — sur PR vers `dev`
+### `validate-pr.yml` : sur PR vers `dev`
 
 - validation du schéma JSON (script Python, `jsonschema` ou `pydantic`)
 - lint + tests unitaires TypeScript (Vitest)
 - build de vérification
 
-### `release.yml` — sur push vers `main` (merge de `dev`)
+### `release.yml` : sur push vers `main` (merge de `dev`)
 
 1. détermination du bump SemVer via le label de la PR mergée : `release:patch`, `release:minor`, `release:major` (explicite et auditable, plutôt qu'une heuristique sur les fichiers modifiés)
 2. tag `vX.Y.Z` + mise à jour du changelog
@@ -115,7 +115,7 @@ L'alternative (fetch runtime depuis `raw.githubusercontent.com`) a été écart�
 |---|---|
 | **Framework front** | SvelteKit + TypeScript + adapter-static, GitHub Pages |
 | **Langage du cœur** | TypeScript (exécuté dans le navigateur), domaine pur sans import framework |
-| **Langage des outils CI/données** | Python, cohérent avec le benchmark existant |
+| **Langage des outils CI/données** | Python, cohérent avec le banc d'essai existant |
 | **Organisation du domaine** | Screaming architecture : capacités métier, nommage français |
 | **Injection de dépendances** | Module `composition.ts` simple, pas de framework DI |
 | **Lecture des données** | Bundle au build + redéploiement auto sur merge vers `main` |
