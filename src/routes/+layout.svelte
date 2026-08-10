@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import favicon from '$lib/assets/favicon.svg';
 	import '../app.css';
 
@@ -12,8 +13,8 @@
 
 <header>
 	<nav>
-		<strong><a href="/">MediQ-Bench</a></strong>
-		<a href="/creer">Proposer une question</a>
+		<strong><a href="{base}/">MediQ-Bench</a></strong>
+		<a href="{base}/creer">Proposer une question</a>
 	</nav>
 </header>
 

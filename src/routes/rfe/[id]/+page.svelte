@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { page } from '$app/state';
 	import { consulterQuestions } from '$lib/application/consulter-questions';
 	import { STATUTS_RELECTURE, type StatutRelecture } from '$lib/domain/relecture/statut';
@@ -33,7 +34,7 @@
 	<title>{rfe} — MediQ-Bench</title>
 </svelte:head>
 
-<p><a href="/">← Toutes les recommandations</a></p>
+<p><a href="{base}/">← Toutes les recommandations</a></p>
 <h1>{rfe}</h1>
 
 <form class="filtres">
@@ -73,7 +74,7 @@
 {/await}
 
 <p style="margin-top: 2rem">
-	<a class="cta" href="/creer">Proposer une question</a>
+	<a class="cta" href="{base}/creer">Proposer une question</a>
 </p>
 
 <style>

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { listerRfe } from '$lib/application/consulter-questions';
 	import { repository } from '$lib/infrastructure/composition';
 
@@ -25,12 +26,12 @@
 	{:else}
 		<ul>
 			{#each liste as rfe}
-				<li><a href="/rfe/{rfe}">{rfe}</a></li>
+				<li><a href="{base}/rfe/{rfe}">{rfe}</a></li>
 			{/each}
 		</ul>
 	{/if}
 {/await}
 
 <p style="margin-top: 2rem">
-	<a class="cta" href="/creer">Proposer une question</a>
+	<a class="cta" href="{base}/creer">Proposer une question</a>
 </p>
