@@ -81,8 +81,13 @@
 
 <h1>Proposer une question</h1>
 <p>
-	Remplissez ce formulaire : il génère pour vous une proposition sur GitHub, relue ensuite par
-	le comité d'experts. Aucune connaissance technique n'est requise.
+	Remplissez ce formulaire : il ouvrira une page GitHub déjà remplie avec votre question. Vous
+	n'aurez qu'à cocher la case de licence et cliquer sur <em>Create</em> ; le reste est
+	automatique, et votre proposition sera relue par le comité d'experts avant publication.
+</p>
+<p class="prerequis">
+	Un compte GitHub (gratuit) est nécessaire pour cette dernière étape. Si vous n'en avez pas,
+	remplissez quand même le formulaire et transmettez la page obtenue à un référent du projet.
 </p>
 
 {#if erreurs.length > 0}
@@ -98,8 +103,9 @@
 
 {#if soumise}
 	<p class="confirmation">
-		Votre proposition a été ouverte dans GitHub : vérifiez le contenu puis validez la création de
-		la pull request. Elle sera relue par le comité avant publication.
+		Votre proposition a été ouverte dans GitHub : vérifiez le contenu, cochez la case de licence
+		en bas de page, puis cliquez sur <em>Create</em>. Elle sera relue par le comité avant
+		publication.
 	</p>
 {/if}
 
@@ -254,6 +260,12 @@
 	}
 	.secondaire:hover {
 		background: #dfe3e6;
+	}
+	.prerequis {
+		font-size: 0.9rem;
+		color: #555;
+		border-left: 3px solid #e0e0e0;
+		padding-left: 0.75rem;
 	}
 	.confirmation {
 		background: #e8f5e9;

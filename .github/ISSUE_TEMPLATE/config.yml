@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Proposer une question depuis le formulaire guidé
+    url: https://tomboulier.github.io/mediq-bench/creer
+    about: Recommandé — le formulaire du site vérifie la question et remplit la page pour vous.

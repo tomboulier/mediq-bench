@@ -1,0 +1,110 @@
+name: Proposition vers PR
+
+# Une issue créée depuis le formulaire de proposition est convertie en fichier
+# JSON, validée, puis ouverte en pull request vers `dev`. Le contributeur n'a
+# jamais à manipuler de branche, de commit ni de JSON.
+#
+# La validation a lieu **ici**, avant l'ouverture de la PR : une PR créée avec
+# GITHUB_TOKEN déclenche bien `validate-pr.yml`, mais en état « approbation
+# requise », donc sans garantie d'exécution immédiate.
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  proposition:
+    if: contains(github.event.issue.labels.*.name, 'proposition')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: dev
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Conversion de l'issue en proposition
+        id: conversion
+        env:
+          # Contenu non fiable : transmis par l'environnement, jamais interpolé
+          # dans une commande shell.
+          CORPS_ISSUE: ${{ github.event.issue.body }}
+        run: python scripts/proposition_vers_json.py
+
+      - name: Validation du schéma des données
+        run: |
+          pip install jsonschema
+          python scripts/validate_schema.py
+
+      - name: Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Dépendances
+        run: npm ci
+
+      - name: Validation des règles métier
+        run: npm test
+
+      - name: Ouverture de la pull request
+        id: pr
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CHEMIN: ${{ steps.conversion.outputs.chemin }}
+          BRANCHE: proposition/${{ steps.conversion.outputs.id }}
+          TITRE: ${{ steps.conversion.outputs.titre }}
+          RFE: ${{ steps.conversion.outputs.rfe }}
+          NUMERO: ${{ github.event.issue.number }}
+          AUTEUR_ISSUE: ${{ github.event.issue.user.login }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCHE"
+          git add "$CHEMIN"
+          git commit -m "feat($RFE): proposition « $TITRE » (#$NUMERO)"
+          git push origin "$BRANCHE"
+          url=$(gh pr create \
+            --base dev \
+            --head "$BRANCHE" \
+            --title "Proposition : $TITRE" \
+            --body "Proposée par @$AUTEUR_ISSUE via l'issue #$NUMERO.
+
+          Recueil : \`$RFE\`
+          Fichier : \`$CHEMIN\`
+
+          Schéma et règles métier validés automatiquement avant ouverture.
+          Closes #$NUMERO")
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+
+      - name: Accusé de réception sur l'issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMERO: ${{ github.event.issue.number }}
+          URL_PR: ${{ steps.pr.outputs.url }}
+        run: |
+          gh issue comment "$NUMERO" --body "Merci ! Votre proposition a été enregistrée : $URL_PR
+
+          Elle sera relue par le comité avant publication. Vous pouvez suivre son avancement depuis ce lien."
+
+      - name: Signalement en cas d'échec
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMERO: ${{ github.event.issue.number }}
+          RUN: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh issue comment "$NUMERO" --body "La proposition n'a pas pu être enregistrée automatiquement.
+
+          Détail de l'erreur : $RUN
+
+          Vous pouvez corriger l'issue et en ouvrir une nouvelle, ou attendre qu'un mainteneur reprenne la main."

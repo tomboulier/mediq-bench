@@ -1,6 +1,6 @@
 import type { QuestionRepository } from '../ports/question-repository';
 import type { QuestionSubmitter } from '../ports/question-submitter';
-import { GitHubPrSubmitter } from './github/pr-submitter';
+import { GitHubIssueSubmitter } from './github/issue-submitter';
 import { BundledRepository } from './github/raw-repository';
 
 /**
@@ -9,8 +9,8 @@ import { BundledRepository } from './github/raw-repository';
  */
 export const repository: QuestionRepository = new BundledRepository();
 
-export const submitter: QuestionSubmitter = new GitHubPrSubmitter({
+export const submitter: QuestionSubmitter = new GitHubIssueSubmitter({
 	owner: 'tomboulier',
 	repo: 'mediq-bench',
-	branche: 'dev'
+	formulaire: 'proposition-question.yml'
 });

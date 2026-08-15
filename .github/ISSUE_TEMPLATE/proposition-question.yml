@@ -1,0 +1,104 @@
+name: Proposer une question
+description: Proposer une nouvelle question clinique pour le banc d'essai
+title: '[Proposition] '
+labels: ['proposition']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de contribuer au banc d'essai.
+
+        Cette page est normalement **remplie automatiquement** par le formulaire du site :
+        https://tomboulier.github.io/mediq-bench/creer
+
+        Vérifiez le contenu, cochez la case en bas, puis cliquez sur **Create**.
+        Un robot transformera votre proposition en demande de modification,
+        qui sera relue par le comité avant publication.
+
+  - type: input
+    id: rfe
+    attributes:
+      label: Recommandation concernée
+      description: Identifiant du recueil auquel rattacher la question (ex. antibioprophylaxie).
+      placeholder: antibioprophylaxie
+    validations:
+      required: true
+
+  - type: input
+    id: titre
+    attributes:
+      label: Titre court
+      placeholder: 'Ex : PTH standard'
+    validations:
+      required: true
+
+  - type: input
+    id: type
+    attributes:
+      label: Type de question
+      description: '`ouverte` (réponse en texte libre) ou `qcm` (une seule bonne réponse).'
+      placeholder: ouverte
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      placeholder: Quelle est la recommandation d'antibioprophylaxie pour… ?
+    validations:
+      required: true
+
+  - type: textarea
+    id: choix
+    attributes:
+      label: Choix de réponse (QCM uniquement)
+      description: Un choix par ligne, dans l'ordre A, B, C… Laisser vide pour une question ouverte.
+      placeholder: |
+        Amoxicilline/Clavulanate
+        Céfazoline
+        Clindamycine
+
+  - type: input
+    id: reponse
+    attributes:
+      label: Réponse attendue
+      description: Texte libre pour une question ouverte, lettre du bon choix (A, B, C…) pour un QCM.
+      placeholder: Céfazoline
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Références aux recommandations
+      description: 'Une par ligne, au format `Titre | URL`. Au moins une est obligatoire.'
+      placeholder: 'RFE SFAR-SPILF : Antibioprophylaxie en chirurgie | https://sfar.org/antibioprophylaxie-en-chirurgie-et-medecine-interventionnelle'
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: Séparés par des virgules, choisis parmi le vocabulaire du projet (data/meta/tags.json).
+      placeholder: orthopédie, allergie
+
+  - type: input
+    id: auteur
+    attributes:
+      label: Votre nom
+      description: Il sera publié avec la question, au titre de l'attribution CC-BY 4.0.
+      placeholder: Prénom Nom
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: consentement
+    attributes:
+      label: Publication
+      options:
+        - label:
+            J'accepte que cette question et mon nom soient publiés sous licence CC-BY 4.0,
+            dans un dépôt public et réutilisable.
+          required: true

@@ -47,7 +47,7 @@ src/
     infrastructure/            # adaptateurs
       github/
         raw-repository.ts      # lit les JSON packagés au build
-        pr-submitter.ts        # construit l'URL de l'éditeur GitHub pré-rempli
+        issue-submitter.ts     # construit l'URL du formulaire d'issue pré-rempli
       export/
         benchmark-json.ts      # adaptateur vers le format benchmark existant (post-MVP)
       composition.ts           # câblage des adaptateurs, sans framework d'injection
@@ -59,9 +59,13 @@ src/
     creer/+page.svelte         # formulaire de création
 data/                          # un fichier JSON par RFE (racine du repo)
 scripts/                       # Python : validation schéma, export, semver
-.github/workflows/
-  validate-pr.yml              # validation sur PR vers dev
-  release.yml                  # merge dev → main : SemVer, build, déploiement
+.github/
+  ISSUE_TEMPLATE/
+    proposition-question.yml   # formulaire vu par le contributeur, pré-rempli par la SPA
+  workflows/
+    proposition-vers-pr.yml    # issue de proposition → validation → PR vers dev
+    validate-pr.yml            # validation sur PR vers dev
+    release.yml                # merge dev → main : SemVer, build, déploiement
 ```
 
 ### Composition sans framework DI
@@ -70,13 +74,17 @@ Projet de taille modeste : pas de conteneur d'injection de dépendances. Un simp
 
 ## 4. Soumission sans backend
 
-Aucune OAuth custom au MVP. Le formulaire génère le JSON côté navigateur, puis le bouton "Proposer sur GitHub" ouvre l'éditeur GitHub avec une URL pré-remplie :
+Aucune OAuth custom, aucun secret, aucun serveur. Le formulaire valide la question côté navigateur, puis ouvre un **formulaire d'issue GitHub pré-rempli** :
 
 ```
-https://github.com/<owner>/<repo>/new/dev?filename=data/<rfe>.json&value=<json encodé>
+https://github.com/<owner>/<repo>/issues/new?template=proposition-question.yml&titre=…&question=…
 ```
 
-L'utilisateur est déjà connecté à GitHub dans son navigateur : il vérifie, commit, et la PR part vers `dev`. Pattern repris d'INDICATE, qui élimine toute gestion d'authentification côté application.
+Le contributeur voit ses réponses en clair, coche la case de licence, valide. Le workflow `proposition-vers-pr.yml` convertit ensuite l'issue en pull request vers `dev`, après validation du schéma et des règles métier.
+
+Le JSON, les branches et la notion de pull request ne sont jamais exposés. Un compte GitHub reste nécessaire pour valider l'issue : c'est le prix de l'absence de backend, arbitrage détaillé dans `04-decision-soumission.md`.
+
+> Version initiale (remplacée) : le formulaire ouvrait l'éditeur de fichiers GitHub (`/new/dev?filename=…&value=<json>`), pattern repris d'INDICATE. Il exposait le JSON brut et les notions de commit et de pull request, en contradiction avec la décision « l'utilisateur ne voit que du contenu médical ».
 
 ## 5. Lecture des données : bundle au build
 
@@ -119,7 +127,7 @@ L'alternative (fetch runtime depuis `raw.githubusercontent.com`) a été écart�
 | **Organisation du domaine** | Screaming architecture : capacités métier, nommage français |
 | **Injection de dépendances** | Module `composition.ts` simple, pas de framework DI |
 | **Lecture des données** | Bundle au build + redéploiement auto sur merge vers `main` |
-| **Soumission** | Éditeur GitHub pré-rempli, pas d'OAuth custom au MVP |
+| **Soumission** | Formulaire d'issue GitHub pré-rempli, converti en PR par une Action (voir doc 04) |
 | **Bump SemVer** | Labels de PR (`release:patch|minor|major`) |
 
 ## Prochaines étapes
